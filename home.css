@@ -1,0 +1,105 @@
+body{
+    background: white;
+}
+
+.wraper{
+    display:flex;
+    position: relative;
+}
+
+.wraper .sidebar{
+    width:250px;
+    height:800px;
+    background-color: rgb(143, 231, 150);
+    padding: 30px 0px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.wraper .sidebar img{
+    position: absolute;
+    height: 90px;
+    width: 90px;
+    padding: 20px 0px;
+    border-radius: 50%;
+}
+.wraper .sidebar h4{
+    position:absolute;
+    padding-left: 100px;
+    font-size: 30px;
+}
+
+.wraper .sidebar p{
+    position:absolute;
+    padding: 60px 0px;
+    padding-left: 100px;
+    font-size: 20px;
+}
+
+.wraper .nav-body{
+
+    padding: 150px 0px;
+    font: sans-serif;
+}
+
+.wraper .nav-body h2{
+    padding: 0px 0px;
+    font-size:30px;
+}
+
+.wraper .nav-body ul{
+    list-style-type: none;
+}
+
+.wraper .nav-body li{
+    padding: 10px 10px;
+    backface-visibility: hidden;
+    list-style: none;
+}
+
+.wraper .nav-body a{
+    font-size: 20px;
+    color: rgb(51, 30, 124);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+
+.wraper .header img{
+    position:absolute;
+    width: 150px;
+}
+
+.wraper .header .header-body{
+    padding-left: 170px;
+}
+
+.wraper .header .header-body h1{
+    font-size: 40px;
+}
+
+.wraper .header .header-body p{
+    font-size: 20px;
+}
+
+.wraper .header .content h4{
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 30px;
+    color:rgb(31, 24, 122);
+}
+
+.wraper .header .content p{
+    width:1100px;
+    position: relative;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-style: italic;
+    padding-left: 30px;
+    color: rgb(207, 124, 29);
+    line-height: 20pt;
+}
+.wraper .header .content .p2{
+    position: absolute;
+}
+
